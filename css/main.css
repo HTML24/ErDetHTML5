@@ -1,0 +1,177 @@
+/* ----------- CSS reset (make styles look the same in every browser) ----------- */
+
+html{color:#000;background:white;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}
+li{list-style:none;}
+caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/* ----------- Page Settings ----------- */
+
+html, 
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../images/bg.png');
+	background-repeat: repeat-x;
+}
+
+a img {
+	border: none;
+}
+
+/* ----------- Clear and Spacing ----------- */
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	margin: 0 0 -1px 0;
+}
+
+/* ----------- Font styles ----------- */
+
+/* Add your main text styles here, this should ALWAYS be styled */
+html, 
+body {
+	font-family: Verdana, Geneva, sans-serif; /* Add your MAIN font-family here */
+}
+a {
+	color: ;
+	text-decoration: ;
+}
+a:hover {
+	color: ;
+	text-decoration: ;
+}
+h1 {
+	font-size: px;
+	margin-bottom: px;
+}
+h2 {
+	font-size: px;
+	margin-bottom: px;
+}
+h3 {
+	font-size: px;
+	margin-bottom: px;
+}
+h4 {
+	font-size: px;
+	margin-bottom: px;
+}
+h5 {
+	font-size: px;
+	margin-bottom: px;
+}
+h6 {
+	font-size: px;
+	margin-bottom: px;
+}
+p {
+	font-size: px;
+	margin-bottom: px;
+}
+bold {
+	font-weight: bold;
+}
+strong {
+	font-weight: bold;
+}
+/* Add your content ID or Class infront "#content ul li", so it's only in the content area */
+ul {
+	margin: 5px 0px 5px 0px;
+}
+ul li {
+	display: list-item; /* Always shown in Firefox */
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 3px 0px 3px 0px;
+}
+ol {
+	margin: 5px 0px 5px 0px;
+}
+ol li {
+	display: list-item; /* Always shown in Firefox */
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin: 3px 0px 3px 0px;
+}
+
+
+/* ----------- Structure ----------- */
+
+#container{
+	width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+	display: none;
+}
+
+h1{
+	font-family: Trebuchet MS;
+	margin-bottom: 30px;
+	background-image:url('../images/erdethtml5.png');
+	text-indent: -9999px;
+	width: 507px;
+	height: 65px;
+	margin: auto;
+	background-repeat: no-repeat;
+}
+
+#search{
+	margin-top: 60px;
+	height: 167px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
+#url{
+	display: block;
+	width: 860px;
+	margin: auto;
+	text-align: center;
+    border:1px;
+	margin-top: 35px;
+	font-family: Trebuchet MS;
+	font-size: 70px;
+	color: #cecece;
+}
+
+#result{
+	text-align: center;
+	margin-top: 50px;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+}
+
+#logo{
+	display: none;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+.result_container{
+	color: green;
+	font-size: 30px;
+	
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
